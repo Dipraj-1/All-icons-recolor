@@ -1,3 +1,7 @@
+/* *@author dipraj
+*@authorId 1407738161471422495 */
+
+
 /*--- Channel List Icon Recolor ---*/
 /*--- Channels&Roles Message bar Channels ---*/
 /*--- Chat Icon Recolor ---*/
@@ -50,7 +54,7 @@ I forgot to actually write down what this is meant todo so until then this will 
 
 
 
-
+/*--- Channel list 'NSFW' Label ---*/
 [class*=linkTop_]:has([class*=iconContainer_] [d^="M18.09 1.63"]) > [class*=children_]::after {
   content: 'NSFW'; 
   background: var(--status-danger-background);
