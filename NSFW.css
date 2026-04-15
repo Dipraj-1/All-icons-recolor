@@ -1,0 +1,46 @@
+/**
+* @name NSFW recolor
+* @author Dipraj
+* @description Recolors the icon for 'NSFW' channels so they are easier to see/notice.
+* @version 7.5.0
+* @authorId 1407738161471422495
+* @website https://Dipraj-1.github.io/
+*/
+
+/*--- 'NSFW' Channel List Icon Recolor ---*/
+/*--- 'NSFW' Chat Icon Recolor ---*/
+/*--- 'NSFW' Message Bar Icon Recolor ---*/
+[class^=icon] path[d^="M18.09 1.63"] {
+    fill: var(--red-400) !important;
+    border: 1px solid rebeccapurple !important;
+}
+
+/*--- 'NSFW' Thread Icon Message Bar Icon Recolor ---*/
+[class^=icon] path[d^="M18.09 15.63c.4-.7" ] {
+    fill: var(--red-400) !important;
+}
+
+/*--- Stupid Ahh channel search icon ---*/
+[class^=searchResultChannelIcon] path[d^="M18.09 1.63c.4-.7 1.43-.7" ] {
+    fill: var(--red-400) !important;
+}
+
+/*--- Ping Warning ---*/
+[class^=ping] path[d^="M18.09 14.63c.4-.7"] {
+    fill: var(--red-400) !important;
+}
+
+/*--- Media Channels ---*/
+[class^=icon] path[d^="M19.91 14.63a1.06"] {
+    fill: var(--red-400) !important;
+    border: 1px solid rebeccapurple !important;
+}
+
+
+/* 
+I forgot to actually write down what this is meant todo so until then this will just be commented out.
+
+[class$=contents] path[d^=" M-10,10 C-10,10 10,-10 10,-10" ] {
+    stroke: var(--status-danger-background) !important ;
+}
+*/
