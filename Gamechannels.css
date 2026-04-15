@@ -1,0 +1,27 @@
+/**
+* @name Synced With Game Recolor
+* @author Dipraj
+* @description Recolors the icon for Channels that are synced with games so they are easier to see/notice.
+* @version 3.5.0
+* @authorId 1407738161471422495
+* @website https://Dipraj-1.github.io/
+
+*/
+
+/*
+* TODO: Find a built in Discord Var for this, instead of making my own.
+* SRC: https://docs.betterdiscord.app/discord/variables
+*/
+
+:root{
+    --Custom-Color-Controller: oklch(89.08% 0.1185 141.18)
+}
+
+[class^=icon] path[d^="M24 5.7c0-1.54-.2-2.66-.34-3.23C23.35"] {
+    fill: var(--Custom-Color-Controller) !important;
+}
+
+/*--- Stupid Ahh channel search icon ---*/
+[class^=searchResultChannelIcon] path[d^="M24 5.7c0-1.54-.2-2.66-.34-3.23C23.35" ] {
+    fill: var(--Custom-Color-Controller) !important;
+}
