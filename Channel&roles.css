@@ -1,0 +1,19 @@
+/**
+* @name Channels & Role recolor
+* @author Dipraj
+* @description Recolors the icon on Channel & Role tab so they are easier to see/notice.
+* @version 6.5.0
+* @authorId 1407738161471422495
+* @website https://Dipraj-1.github.io/
+*/
+
+/*--- Channel List Icon Recolor ---*/
+/*--- Channels&Roles Message bar Channels ---*/
+/*--- Chat Icon Recolor ---*/
+[class^=icon] path[d^="M18.5 23c.88"] {
+    color: var(--green-360) !important;
+    /*color works most places except one place... idk why that is*/
+    fill: var(--green-360) !important;
+    border: 1px solid rebeccapurple !important;
+
+}
